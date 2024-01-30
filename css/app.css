@@ -81,16 +81,25 @@ li {
 }
 
 .list-element {
-    display: inline-block;
 }
 
 .check {
     border-radius: 50%;
-    padding: 3px 5px;
     margin-right: 15px;
-    color:  rgb(14, 167, 108);
     font-size: 12px;
+}
+
+.done {
+    color:  rgb(14, 167, 108);
     border: 1px solid rgb(14, 167, 108);
+    padding: 3px 5px;
+}
+
+.undone {
+    color:  rgb(221, 55, 25);
+    border: 1px solid rgb(221, 55, 25);
+    padding: 3px 6px;
+
 }
 
 .tag {
@@ -103,4 +112,24 @@ li {
 
 .editorial {
     background-color: rgb(30, 149, 208);
+}
+
+.goals {
+    background-color: rgb(156, 85, 222);
+}
+
+.recruiting {
+    background-color: rgb(71, 197, 155);
+}
+
+.mobile {
+    background-color: rgb(247, 171, 30);
+}
+
+.website {
+    background-color: rgb(223, 103, 157);
+}
+
+.sale {
+    background-color: rgb(139, 192, 34);
 }
