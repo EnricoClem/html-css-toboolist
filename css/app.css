@@ -31,11 +31,34 @@ header {
     vertical-align: top;
 }
 
-
+/* Central box */
 
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 50px auto;
     background-color: white;
     border-radius: 5px;
+}
+
+.container-button {
+    padding: 20px 60px;
+    border-bottom: 2px solid lightgray;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.add-task {
+    background-color: rgb(30, 149, 208);
+    color: white;
+    border: 1px solid transparent;
+}
+
+.add-section {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgray;
 }
